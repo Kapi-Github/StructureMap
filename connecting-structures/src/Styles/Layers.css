@@ -1,0 +1,19 @@
+.react-flow__edges,
+.react-flow__edgelabel-renderer {
+  z-index: 500 !important;
+}
+.react-flow__handle {
+  width: 10px;
+  height: 10px;
+  z-index: 100;
+}
+
+.react-flow__handle-top {
+  left: 50%;
+  transform: translate(-50%, -25%);
+}
+
+.react-flow__handle-bottom {
+  left: 50%;
+  transform: translate(-50%, 25%);
+}
